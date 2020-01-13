@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="SMAPEA-QN-emergency-handling-ISCRAM-demands.jsimg" timestamp="Sat Jul 27 12:39:28 CEST 2019" xsi:noNamespaceSchemaLocation="Archive.xsd">
-<sim disableStatisticStop="false" logDecimalSeparator="," logDelimiter=";" logPath="/Users/davarc/JMT" logReplaceMode="0" maxSamples="500000" name="SMAPEA-QN-emergency-handling-ISCRAM-demands.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
+<archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="SMAPEA-QN-emergency-handling.jsimg" timestamp="Mon Jan 13 14:46:28 CET 2020" xsi:noNamespaceSchemaLocation="Archive.xsd">
+<sim disableStatisticStop="false" logDecimalSeparator="," logDelimiter=";" logPath="/Users/davarc/JMT" logReplaceMode="0" maxSamples="500000" name="SMAPEA-QN-emergency-handling.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
 <userClass name="Sense" priority="0" referenceSource="Sampling" type="open"/>
 <userClass name="CCTVsSense" priority="0" referenceSource="Fork" type="open"/>
 <userClass name="TempSensorsSense" priority="0" referenceSource="Fork" type="open"/>
@@ -11482,7 +11482,7 @@
 <value>CentralController</value>
 </subParameter>
 <subParameter classPath="java.lang.Double" name="probability">
-<value>0.5</value>
+<value>1.0</value>
 </subParameter>
 </subParameter>
 <subParameter classPath="jmt.engine.random.EmpiricalEntry" name="EmpiricalEntry">
@@ -11490,7 +11490,7 @@
 <value>PeerController</value>
 </subParameter>
 <subParameter classPath="java.lang.Double" name="probability">
-<value>0.5</value>
+<value>0.0</value>
 </subParameter>
 </subParameter>
 <subParameter classPath="jmt.engine.random.EmpiricalEntry" name="EmpiricalEntry">
@@ -11600,7 +11600,7 @@
 <value>CentralController</value>
 </subParameter>
 <subParameter classPath="java.lang.Double" name="probability">
-<value>0.5</value>
+<value>1.0</value>
 </subParameter>
 </subParameter>
 <subParameter classPath="jmt.engine.random.EmpiricalEntry" name="EmpiricalEntry">
@@ -11608,7 +11608,7 @@
 <value>PeerController</value>
 </subParameter>
 <subParameter classPath="java.lang.Double" name="probability">
-<value>0.5</value>
+<value>0.0</value>
 </subParameter>
 </subParameter>
 <subParameter classPath="jmt.engine.random.EmpiricalEntry" name="EmpiricalEntry">
